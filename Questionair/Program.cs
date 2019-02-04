@@ -10,6 +10,13 @@ namespace Questionair
     {
         static void Main(string[] args)
         {
+            Console.Title = "Questionair by Sam Hirsch";
+
+            User Player = new User();
+            Questions Questionair = new Questions();
+
+            Console.WriteLine("Press any key to continue ...");
+            Console.ReadKey();
         }
     }
 }
